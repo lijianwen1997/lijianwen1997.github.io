@@ -113,12 +113,14 @@ a {
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   border-bottom: dotted 1px;
   color: #CEB888;
-  text-decoration: none; }
+  text-decoration: none !important; }
   a:hover {
+    text-decoration: none !important;
     border-bottom-color: #CEB888;
     color: #CEB888 !important; }
     a:hover strong {
       color: inherit; }
+
 
 strong, b {
   color: #3d4449;
